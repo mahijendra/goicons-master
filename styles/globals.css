@@ -24,7 +24,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 * {
@@ -40,28 +40,30 @@ a {
 .button {
   min-width: 120px;
   max-width: 250px;
+  color: white;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 2px;
-
 }
 
 @media only screen and (max-width: 768px) {
   .button {
     margin-bottom: 20px;
+    color: white;
   }
 }
 
 .button--nina {
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
-  
+  color: white;
 }
 .button--nina > span {
   display: inline-block;
   padding: 1em 0;
   opacity: 0;
+  color: white;
   -webkit-transform: translate3d(0, -10px, 0);
   transform: translate3d(0, -10px, 0);
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -78,6 +80,7 @@ a {
   width: 100%;
   height: 100%;
   padding: 1em 0;
+  color: white;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
@@ -161,13 +164,13 @@ a {
 }
 
 .bg-icons {
-  background: #FAFAFF;
+  background: #fafaff;
 }
 
 .bg-gradient:hover {
-  background: #EBE9FE;
+  background: #ebe9fe;
 }
 
-.text-footer{
-  color: #7A5AF8;
+.text-footer {
+  color: #7a5af8;
 }
