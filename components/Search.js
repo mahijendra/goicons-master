@@ -3,13 +3,13 @@ import React from "react";
 // eslint-disable-next-line react/prop-types
 const Search = ({ searchTerm, setSearchTerm }) => {
   return (
-    <div className="py-2 lg:px-56 bg-transparent">
+    <div className="py-2 lg:px-56">
       <div className="flex rounded-md">
         <div className="relative flex-grow focus-within:z-10">
-          <div className="relative mt-1 rounded-md shadow-sm ">
+          <div className="relative mt-1 rounded-md shadow-md">
             <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
               <svg
-                className="h-5 w-5 text-gray-500 bg-none"
+                className="h-5 w-5 text-gray-600 bg-none"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -26,7 +26,7 @@ const Search = ({ searchTerm, setSearchTerm }) => {
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="block w-full rounded-lg pl-10 sm:text-sm pr-8 pt-0 outline-none border border-purple-100 h-10"
+              className="block w-full rounded-lg pl-10 sm:text-sm pr-8 pt-0 outline-none border border-violet-200 h-10 text-custom"
               placeholder="Search all 200 Icons"
             />
           </div>

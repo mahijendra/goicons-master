@@ -11,7 +11,7 @@ export default function Demo() {
   const bodyText = [
     {
       type: "paragraph",
-      text: "Get fully editable vector icons and social logos on your website with Go Icons. The Hand-crafted free icons library, designed with great attention to detail.",
+      text: "Get fully editable vector icons for your webiste. Hand-crafted free icons library, designed with great attention to detail.",
     },
   ];
 
@@ -38,11 +38,11 @@ export default function Demo() {
               <span className="rounded-full bg-white px-3 py-0.5 text-sm font-normal leading-5 text-custom">
                 Growing Collection
               </span>
-              <span className="ml-4 text-sm text-custom">
-                with <span className="font-bold">FREE</span> Updates
+              <span className="ml-2 text-sm text-custom">
+                with <span className="font-bold tracking-wide">FREE</span> Updates
               </span>
             </div>
-            <h2 className="text-3xl font-semibold tracking-tight sm:text-2xl md:text-6xl">
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-2xl md:text-6xl lg:h-24 h-12">
               <span className="block xl:inline text-custom">
                 {" "}
                 {placeholderText.map((item, index) => {
@@ -50,7 +50,7 @@ export default function Demo() {
                 })}
               </span>{" "}
             </h2>
-            <div className="text-md text-gray-500 sm:mx-auto sm:max-w-xl lg:max-w-xl font-normal sm:text-md md:text-md lg:mx-0">
+            <div className="text-md text-gray-500 sm:mx-auto sm:max-w-xl lg:w-6/12 text-ellipsis tracking-wide font-medium sm:text-md md:text-md lg:mx-0 ">
               {bodyText.map((item, index) => {
                 return <AnimatedText {...item} key={index} />;
               })}

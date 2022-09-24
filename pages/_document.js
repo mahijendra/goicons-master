@@ -6,7 +6,7 @@ export default function Document() {
       <title>Go Icons</title>
       <Head>
         <link
-          href="http://fonts.cdnfonts.com/css/clash-display"
+          href="https://fonts.cdnfonts.com/css/clash-display"
           rel="stylesheet"
         />
       </Head>
