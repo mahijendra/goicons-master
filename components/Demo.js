@@ -62,12 +62,12 @@ export default function Demo() {
                   className="button button--nina px-6 text-custom font-flair hover:text-custom relative block focus:outline-none border text-white border-custom rounded-lg text-sm text-center font-medium tracking-wider overflow-hidden bg-customPurple"
                   data-text="Github"
                 >
-                  <span className="align-middle font-flair">G</span>
-                  <span className="align-middle font-flair">i</span>
-                  <span className="align-middle font-flair">t</span>
-                  <span className="align-middle font-flair">h</span>
-                  <span className="align-middle font-flair">u</span>
-                  <span className="align-middle font-flair">b</span>
+                  <span className="align-middle font-flair text-white">G</span>
+                  <span className="align-middle font-flair text-white">i</span>
+                  <span className="align-middle font-flair text-white">t</span>
+                  <span className="align-middle font-flair text-white">h</span>
+                  <span className="align-middle font-flair text-white">u</span>
+                  <span className="align-middle font-flair text-white">b</span>
                 </a>
               </div>
             </div>
