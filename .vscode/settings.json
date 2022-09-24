@@ -1,0 +1,5 @@
+{
+    "eslint.run": "onSave",
+    "eslint.packageManager": "yarn",
+    "eslint.alwaysShowStatus": true
+}
