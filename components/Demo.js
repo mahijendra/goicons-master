@@ -59,7 +59,7 @@ export default function Demo() {
               <div className="justify-center">
                 <a
                   href="https://github.com/mahijendra/goicons.git"
-                  className="button button--nina px-6 text-custom font-flair hover:text-custom relative block focus:outline-none border text-white border-custom rounded-lg text-sm text-center font-medium tracking-wider overflow-hidden bg-customPurple"
+                  className="button button--nina px-6 text-custom font-flair hover:text-custom relative block focus:outline-none border text-white border-custom rounded-lg text-sm text-center font-medium tracking-wide overflow-hidden bg-customPurple"
                   data-text="Github"
                 >
                   
