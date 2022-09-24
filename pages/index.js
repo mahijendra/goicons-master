@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Demo from "../components/Demo";
-
 import Search from "../components/Search";
 import Svg from "../components/svg";
 import {svgData} from "../components/svgData";

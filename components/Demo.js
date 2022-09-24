@@ -50,11 +50,11 @@ export default function Demo() {
                 })}
               </span>{" "}
             </h2>
-            <p className="text-md text-gray-500 sm:mx-auto sm:max-w-xl lg:max-w-xl font-normal sm:text-md md:text-md lg:mx-0">
+            <div className="text-md text-gray-500 sm:mx-auto sm:max-w-xl lg:max-w-xl font-normal sm:text-md md:text-md lg:mx-0">
               {bodyText.map((item, index) => {
                 return <AnimatedText {...item} key={index} />;
               })}
-            </p>
+            </div>
             <div className="sm:mt-5 sm:flex sm:justify-center lg:justify-start">
               <div className="justify-center">
                 <a
