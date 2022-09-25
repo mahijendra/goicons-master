@@ -58,7 +58,7 @@ export default function Demo() {
             <div className="sm:mt-5 sm:flex sm:justify-center lg:justify-start">
               <div className="justify-center">
                 <a
-                  href="https://github.com/mahijendra/goicons.git"
+                  href="https://github.com/mahijendra/goicons-master"
                   className="button button--nina px-6 text-custom font-flair hover:text-custom relative block focus:outline-none border text-white border-custom rounded-lg text-sm text-center font-medium tracking-wide overflow-hidden bg-customPurple"
                   data-text="Github"
                 >
